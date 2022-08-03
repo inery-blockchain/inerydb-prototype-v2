@@ -1,0 +1,83 @@
+{
+    "____comment": "This file was generated with inery-abigen. DO NOT EDIT ",
+    "version": "inery::abi/1.1",
+    "types": [],
+    "structs": [
+        {
+            "name": "crtablcia",
+            "base": "",
+            "fields": [
+                {
+                    "name": "name",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "dltablcia",
+            "base": "",
+            "fields": [
+                {
+                    "name": "id",
+                    "type": "uint64"
+                }
+            ]
+        },
+        {
+            "name": "tablcia",
+            "base": "",
+            "fields": [
+                {
+                    "name": "id",
+                    "type": "uint64"
+                },
+                {
+                    "name": "name",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "uptablcia",
+            "base": "",
+            "fields": [
+                {
+                    "name": "id",
+                    "type": "uint64"
+                },
+                {
+                    "name": "name",
+                    "type": "string"
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "name": "crtablcia",
+            "type": "crtablcia",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "dltablcia",
+            "type": "dltablcia",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "uptablcia",
+            "type": "uptablcia",
+            "ricardian_contract": ""
+        }
+    ],
+    "tables": [
+        {
+            "name": "tablcia",
+            "type": "tablcia",
+            "index_type": "i64",
+            "key_names": [],
+            "key_types": []
+        }
+    ],
+    "ricardian_clauses": [],
+    "variants": []
+}

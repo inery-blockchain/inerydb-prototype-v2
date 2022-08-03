@@ -1,0 +1,83 @@
+{
+    "____comment": "This file was generated with inery-abigen. DO NOT EDIT ",
+    "version": "inery::abi/1.1",
+    "types": [],
+    "structs": [
+        {
+            "name": "crtabla",
+            "base": "",
+            "fields": [
+                {
+                    "name": "predmet",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "dltabla",
+            "base": "",
+            "fields": [
+                {
+                    "name": "id",
+                    "type": "uint64"
+                }
+            ]
+        },
+        {
+            "name": "tabla",
+            "base": "",
+            "fields": [
+                {
+                    "name": "id",
+                    "type": "uint64"
+                },
+                {
+                    "name": "predmet",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "uptabla",
+            "base": "",
+            "fields": [
+                {
+                    "name": "id",
+                    "type": "uint64"
+                },
+                {
+                    "name": "predmet",
+                    "type": "string"
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "name": "crtabla",
+            "type": "crtabla",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "dltabla",
+            "type": "dltabla",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "uptabla",
+            "type": "uptabla",
+            "ricardian_contract": ""
+        }
+    ],
+    "tables": [
+        {
+            "name": "tabla",
+            "type": "tabla",
+            "index_type": "i64",
+            "key_names": [],
+            "key_types": []
+        }
+    ],
+    "ricardian_clauses": [],
+    "variants": []
+}
